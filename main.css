@@ -1,0 +1,38 @@
+
+body {
+    background-color:rgba(36, 136, 151, 0.644);
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.btn {
+    background-color: #eb6517;
+    border: none;
+    color: #441c05;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+h1 {
+    color: #424141; 
+}
+
+.module{
+    position: inherit;
+    width: 33%;
+    height: 350px;
+}
+
+.image {
+    position: inherit;
+    width: 100%
+}
