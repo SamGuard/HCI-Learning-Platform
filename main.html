@@ -14,16 +14,19 @@
     <table style="height: 100%; width: 100%;">
         <tr style="position: relative; top: 50%">
             <th style="position: relative; width: 50%;">
-                <button type="button" action="home.html" class="btn" id="loginButton" name="loginButton" style="float: right; width: 50%;">Login</button>
+                <button type="button" action="home.html" class="btn" id="loginButton" name="loginButton" style="float: right; width: 50%;">Login as Student</button>
             </th>
             <th style="position: relative; width: 50%;">
-                <button type="button" action="" class="btn" id="guestButton" name="guestButton" style="float: left; width: 50%;">Continue as guest</button>
+                <button type="button" action="" class="btn" id="staffButton" name="guestButton" style="float: left; width: 50%;">Login as Staff</button>
             </th>
         </tr>
     </table>
     <script>
         $("#loginButton").click(() => {
                 window.location = "home.html"
+        });
+        $("#staffButton").click(() => {
+                window.location = "staff.html"
         });
     </script>
 </body>
