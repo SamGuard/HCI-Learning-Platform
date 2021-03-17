@@ -11,7 +11,7 @@ html {
     height: 100%;
 }
 
-.btn {
+.btn, .moduleBtn {
     background-color: #eb6517;
     border: none;
     color: #441c05;
@@ -22,7 +22,7 @@ html {
     font-size: 16px;
 }
 
-h1 {
+h1, h2 {
     color: #424141; 
 }
 
@@ -35,4 +35,8 @@ h1 {
 .image {
     position: inherit;
     width: 100%
+}
+
+.modulePage {
+    color: black; 
 }

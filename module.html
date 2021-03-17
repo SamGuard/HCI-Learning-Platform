@@ -1,12 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <title>Module Page</title>
+  </head>
+  <body>
+    <div style="position: relative; float: left; width: 50%; height: auto">
+      <h1>Human Computer Interaction</h1>
+    </div>
+    <div style="position: relative; width: 100%; height: auto">
+      <table style="position: inherit; width: 100%">
+        <tr style="position: inherit; width: 100%">
+          <th id="ass" class="moduleCat" style="width: 33%; outline: 3px solid black">
+            <button class="moduleBtn" type="button">Assesment</button>
+          </th>
+          <th id="live" class="moduleCat" style="width: 33%; outline: 3px solid black">
+            <button class="moduleBtn" type="button">Live Lectures</button>
+          </th>
+          <th id="cont" class="moduleCat" style="width: 33%; outline: 3px solid black">
+            <button class="moduleBtn" type="button">Contact Information</button>
+          </th>
+        </tr>
+      </table>
+    </div>
+    <div id="catBox" style="position: relative; width: 100%; height: auto; top: 50px; outline: 5px solid black;">
+    </div>
+
+    <div id="moduleContents" style="position: relative; width: 100%; height: auto; top: 100px;">
+      
+        <h1>Semester 1</h1>
+        <h2><a class="ModulePage" href="modulePage.html">Week 1 - Introduction</a></h2>
+        <h2><a class="ModulePage" href="modulePage.html">Week 2 - UCD and Task Analysis</a></h2>
+
+        <h1>Semester 2</h1>
+        <h2><a class="ModulePage" href="modulePage.html">Week 1 - Brief Introduction to the coursework</a></h2>
+        <h2><a class="ModulePage" href="modulePage.html">Week 2 -Ethics in HCI</a></h2>
+      
+    </div>
+
+    <script>
+        $('#catBox').hide();
+    </script>
+  </body>
 </html>
